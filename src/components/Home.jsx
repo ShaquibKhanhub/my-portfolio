@@ -69,7 +69,7 @@ const Home = ({ ratio }) => {
           </div>
 
           <p>
-            <a href="#work" download="src/assets/Shaquib Khan.pdf">
+            <a href="#work" download="src/assets/Shaquib_Khan.pdf">
               <button>
                 Resume
                 <a href="#work">
@@ -78,7 +78,6 @@ const Home = ({ ratio }) => {
               </button>
             </a>
           </p>
-        
 
           <aside>
             <article>
