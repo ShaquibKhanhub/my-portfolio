@@ -3,6 +3,7 @@ import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowDown, BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import me from "../assets/Photo.png";
+import CV from '../assets/cv.pdf';
 
 const Home = ({ ratio }) => {
   // const clientCount = useRef(null);
@@ -69,7 +70,7 @@ const Home = ({ ratio }) => {
           </div>
 
           <p>
-            <a href="#work" download="src/assets/Shaquib_Khan.pdf">
+            <a href={CV} download>
               <button>
                 Resume
                 <a href="#work">
